@@ -79,12 +79,37 @@
   font-weight: 400;
 }
 
+#projects a:focus, #projects a:hover, #projects a:visited, #projects a:link, #projects a:active {
+  color: black;
+}
+
+#projects svg {
+  transition: transform .2s; /* Animation */
+}
+
+#projects svg:hover {
+  transform: scale(1.2);
+}
+
+#photos .flex-container {
+  display: flex;
+  border: 1px solid gray;
+  margin: 3% 5%;
+  justify-content: space-evenly;
+}
+
+#photos .flex-container > div {
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 60px;
+  font-size: 30px;
+}
+
 .card {
   margin: 3% 5%;
   box-shadow: 0 2px 2px rgba(0,0,0,0.12), 
               0 4px 4px rgba(0,0,0,0.12), 
-              0 8px 8px rgba(0,0,0,0.12),
-              0 16px 16px rgba(0,0,0,0.12);
+              0 8px 8px rgba(0,0,0,0.12);
   height: 150px;
   border-radius: 5px;
 }
@@ -148,6 +173,14 @@ footer {
     margin: 10px 5%;
   }
 
+  #projects svg:hover {
+    transform: scale(1);
+  }
+
+  #photos .flex-container {
+    flex-direction: column;
+  }
+
   .card {
     font-size: smaller;
     margin: 3% 2%;
@@ -159,7 +192,7 @@ footer {
     font-size: small;
   }
 
-  .card h4 {
+  #experience h4 {
     display: none;
   }
 }
