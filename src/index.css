@@ -36,14 +36,14 @@
   cursor: pointer;
 }
 
-.nav-bar .last {
+.nav-bar #last {
   margin-right: 20%;
 }
 
 #home {
   color: #202020;
   text-align: center;
-  border: 1px solid black;
+  margin-bottom: 40px;
 }
 
 #home h1 {
@@ -69,23 +69,32 @@
   font-weight: 400;
 }
 
-#experience {
-  border: 1px solid black;
-  margin: 10px 20%;
+#experience, #projects, #photos {
+  margin: 25px 20%;
+  margin: 10px 20% 85px 20%;
 }
 
-#experience h1 {
+#experience h1, #projects h1, #photos h1 {
   margin-left: 5%;
+  font-weight: 400;
 }
 
 .card {
   margin: 3% 5%;
-  box-shadow: 0 0 4px black;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
   height: 150px;
+  border-radius: 5px;
 }
 
 .card table {
     border-collapse: collapse;
+}
+
+.card img {
+  border-radius: 5px 0px 0px 5px;
 }
 
 .card-element h2, .card-element h4 {
@@ -93,22 +102,23 @@
 }
 
 .card-element h2 {
-  margin-left: 5px;
+  margin-left: 8px;
   margin-top: -35px;
   font-weight: 400;
 }
 
 .card-element h3 {
-  margin-left: 5px;
+  margin-left: 8px;
   margin-bottom: 25px;
 }
 
 .card-element p {
-  margin-left: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .card-element h4 {
-  margin-right: 5px;
+  margin-right: 8px;
   float: right;
 }
 
@@ -134,11 +144,22 @@ footer {
     margin: 20px 5%;
   }
 
-  #experience {
+  #experience, #projects, #photos {
     margin: 10px 5%;
   }
 
   .card {
     font-size: smaller;
+    margin: 3% 2%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .card {
+    font-size: small;
+  }
+
+  .card h4 {
+    display: none;
   }
 }
