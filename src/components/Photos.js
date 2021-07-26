@@ -1,12 +1,12 @@
+import ImageSlider from "./ImageSlider"
+import { SliderData } from './SliderData';
+
 const Photos = () => {
     return (
         <div id='photos'>
-            <h1>Latest Park Photos</h1>
-            <div class="flex-container">
-                <div>Denali</div>
-                <div>Rocky Mountain</div>
-                <div>Kinzua</div>  
-            </div>
+            <h1>Recent Park Photos</h1>
+            <p>One of my biggest hobbies is exploring the outdoors. Here are few pictures from my recent adventures!</p>
+            <ImageSlider slides={SliderData}/>
         </div>
     )
 }
