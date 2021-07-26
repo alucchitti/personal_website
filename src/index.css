@@ -46,9 +46,17 @@
   margin-bottom: 40px;
 }
 
-#home h1 {
+#home {
   padding-top: 55px;
+}
+
+#home h1 {
   font-weight: 900;
+}
+
+#home span {
+  font-weight: 900;
+  font-size: 18px;
 }
 
 #home h3 {
@@ -84,7 +92,7 @@
 }
 
 #projects svg {
-  transition: transform .2s; /* Animation */
+  transition: transform .2s;
 }
 
 #projects svg:hover {
@@ -231,5 +239,9 @@ footer {
 
   #experience h4 {
     display: none;
+  }
+
+  #photos p {
+    margin-bottom: -15%;
   }
 }

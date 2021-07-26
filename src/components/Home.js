@@ -3,7 +3,7 @@ import {FaGithubSquare, FaLinkedin, FaFilePdf} from 'react-icons/fa'
 const Home = () => {
     return (
         <div id='home'>
-            <h1>Hi, I'm Anthony.</h1>
+            <h1>Hi, I'm Anthony<span> (he/him)</span></h1>
             <h3>CS Student. Aspiring Developer. Data Enthusiast.</h3>
             <div id="icons">
                 <a href='https://github.com/alucchitti' target="_blank" rel="noopener noreferrer"><FaGithubSquare size={28}/></a>
