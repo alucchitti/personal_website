@@ -161,6 +161,7 @@
               0 4px 4px rgba(0,0,0,0.12), 
               0 8px 8px rgba(0,0,0,0.12);
   height: 150px;
+  max-width: 685px;
   border-radius: 5px;
 }
 
@@ -303,5 +304,26 @@ footer {
 
   .slider img {
     max-height: 150px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .nav-bar h2 {
+    display: none;
+  }
+  
+  #experience h1, #projects h1, #photos h1 {
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  #photos p {
+    margin: 0px 0px;
+  }
+
+  .card {
+    width: 685px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
