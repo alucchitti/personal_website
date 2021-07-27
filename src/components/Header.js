@@ -1,11 +1,11 @@
 const Header = () => {
     return (
         <div className='nav-bar'>
-            <h1 href="https://www.anthonylucchitti.com/"><span>Anthony Lucchitti</span></h1>
-            <h2 id="last" href="https://www.anthonylucchitti.com/#photos"><span>Photos</span></h2>
-            <h2 href="https://www.anthonylucchitti.com/#projects"><span>Projects</span></h2>
-            <h2 href="https://www.anthonylucchitti.com/#experience"><span>Experience</span></h2>
-            <h2 href="https://www.anthonylucchitti.com/"><span>Home</span></h2>
+            <h1><a href="#">Anthony Lucchitti</a></h1>
+            <h2 id="last"><a href="#photos">Photos</a></h2>
+            <h2><a href="#projects">Projects</a></h2>
+            <h2><a href="#experience">Experience</a></h2>
+            <h2><a href="#">Home</a></h2>
         </div>
     )
 }

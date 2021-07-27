@@ -21,7 +21,7 @@
   margin-left: 20%;
 }
 
-.nav-bar h1 span:hover {
+.nav-bar h1 a:hover {
   cursor: pointer;
 }
 
@@ -31,9 +31,14 @@
   margin-left: 15px;
 }
 
-.nav-bar h2 span:hover {
+.nav-bar h2 a:hover {
   color: gray;
   cursor: pointer;
+}
+
+.nav-bar a:focus, .nav-bar a:visited, .nav-bar a:link, .nav-bar a:active {
+  color: black;
+  text-decoration: none;
 }
 
 .nav-bar #last {
