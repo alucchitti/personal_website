@@ -51,7 +51,6 @@
 #home {
   color: #202020;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 #home {
@@ -130,7 +129,7 @@
 .right-arrow {
   position: absolute;
   top: 50%;
-  right: 32px;
+  right: 5%;
   font-size: 3;
   color: #000;
   cursor: pointer;
@@ -139,7 +138,7 @@
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: 32px;
+  left: 5%;
   font-size: 3;
   color: #000;
   cursor: pointer;
@@ -273,7 +272,36 @@ footer {
     margin-bottom: 10px;
   }
 
+  .card h4 {
+    display: none;
+  }
+
   .card p {
     font-size: x-small;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .left-arrow {
+    left: 0%;
+  }
+
+  .right-arrow {
+    right: 0%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    font-size: x-small;
+  }
+  .card p {
+    display: none;
+  }
+
+  .slider img {
+    max-height: 150px;
   }
 }
