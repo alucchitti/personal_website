@@ -1,4 +1,4 @@
-import {FaGithubSquare, FaLinkedin, FaFilePdf} from 'react-icons/fa'
+import {FaGithubSquare, FaLinkedin} from 'react-icons/fa'
 import {RiMailFill} from 'react-icons/ri'
 
 const Home = () => {
