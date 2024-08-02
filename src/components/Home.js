@@ -11,7 +11,7 @@ const Home = () => {
                 <a href='mailto:alucchitti@pitt.edu'><RiMailFill size={28}/></a>
                 <a href='https://www.linkedin.com/in/alucchitti/' target="_blank" rel="noopener noreferrer"><FaLinkedin size={28}/></a>
             </div>
-            <p>I'm a software developer based out of the Washington, D.C area. I enjoy finding new ways to solve problems using technology. Explore my portfolio to see what I've been working on recently!</p>
+            <p>I'm a software developer based out of the Washington, D.C. area. I enjoy finding new ways to solve problems using technology. Explore my portfolio to see what I've been working on recently!</p>
         </div>
     )
 }

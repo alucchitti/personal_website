@@ -3,7 +3,6 @@ import pikespeak from './images/parks/pikespeak.jpg'
 import royalgorge from './images/parks/royalgorge.jpg'
 import rockymountain from './images/parks/rockymountain.jpg'
 import kinzuabridge from './images/parks/kinzuabridge.jpg'
-import ohiopyle from './images/parks/ohiopyle.jpg'
 
 export const SliderData = [
     {
@@ -20,9 +19,6 @@ export const SliderData = [
     },
     {
         image: kinzuabridge
-    },
-    {
-        image: ohiopyle
     }
 
   ];

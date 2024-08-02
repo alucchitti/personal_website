@@ -12,7 +12,6 @@ const App = () => {
       <Header />
       <Home />
       <Experience />
-      <Projects />
       <Photos />
       <Footer />
     </div>
